@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таймер</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="title">Вы можете поменять значение в таймере:</h1>
+    <div class="timer">
+        <div class="timer__block">
+            <input type="number" id="hours" value="0" onKeyPress="numbers()">
+        </div>
+        <div class="timer__block">
+            <input type="number" id="minutes" value="5" onKeyPress="numbers()">
+        </div>
+        <div class="timer__block">
+            <input type="number" id="seconds" value="12" onKeyPress="numbers()">
+        </div>
+    </div>
+    <div class="buttons">
+        <button class="btn start">Запуск</button>
+        <button class="btn stop">Остановка</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
