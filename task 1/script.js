@@ -8,7 +8,6 @@ function updateTime() {
         clearInterval(timer);
     } else {
         --time;
-        console.log(time);
         hours.value = Math.floor(time / (60 * 60));
         minutes.value = Math.floor(time / 60);
         seconds.value = time % 60;
